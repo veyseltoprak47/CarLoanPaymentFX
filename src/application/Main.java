@@ -11,7 +11,7 @@ public class Main extends Application {
 	public void start(Stage primaryStage) {
 		Parent root = null;
 		try {
-			root=FXMLLoader.load(getClass().getResource("Sample.fxml"));
+			root=FXMLLoader.load(getClass().getResource("LoanPayment.fxml"));
 		
 		} catch(Exception e) {
 			e.printStackTrace();
